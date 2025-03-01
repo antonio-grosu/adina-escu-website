@@ -20,7 +20,7 @@ const Navbar = () => {
         </Link>
         <div className="hidden  md:flex items-center justify-between text-sm gap-4 ">
           <Link
-            href="/despre-mine"
+            href="/"
             className="hover:text-color-primary hover:cursor-pointer"
           >
             Acasa
