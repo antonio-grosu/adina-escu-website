@@ -10,8 +10,12 @@ const Card = ({ title, description, duration, price }: CardProps) => {
     <div className="w-full bg-color-primary/20 border-2 rounded-xl border-color-primary p-8">
       <h3 className="font-semibold text-lg">{title}</h3>
       <div className="flex flex-col gap-4 mt-8">
-        {description.map((item) => {
-          return <p className="text-color-text">{item}</p>;
+        {description.map((item, index) => {
+          return (
+            <p key={index} className="text-color-text">
+              {item}
+            </p>
+          );
         })}
       </div>
       <p className="text-color-text mt-8 font-semibold">Durata: {duration}</p>
