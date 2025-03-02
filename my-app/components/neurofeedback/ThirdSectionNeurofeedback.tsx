@@ -1,6 +1,6 @@
 export const ThirdSectionNeurofeedback = () => {
   return (
-    <div className="py-24  md:h-auto w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 flex flex-col  justify-between gap-12">
+    <div className="py-12  md:h-auto w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 flex flex-col  justify-between gap-12">
       <h1 className="text-color-primary text-left font text-2xl md:text-4xl ">
         Cum funcționează Neurofeedback-ul?{" "}
       </h1>

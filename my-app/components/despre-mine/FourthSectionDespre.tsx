@@ -1,6 +1,7 @@
+import Link from "next/link";
 export const FourthSectionDespre = () => {
   return (
-    <div className="md:pt-12 w-full pb-24 px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 flex items-center justify-between gap-24">
+    <div className="md:pt-12 w-full pb-24 px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 flex md:flex-row flex-col items-center justify-between gap-8 md:gap-24">
       <div className="md:w-5/12 w-full ">
         <h1 className="text-color-primary text-center md:text-left font text-2xl md:text-4xl">
           Filozofia mea de lucru{" "}
@@ -15,15 +16,18 @@ export const FourthSectionDespre = () => {
           ofera intstrumentele necesare pentru a atinge acest obiectiv.{" "}
         </p>
       </div>
-      <div className="md:w-5/12 w-full">
-        <p className="mt-8 text-center md:text-left text-color-text">
+      <div className="md:w-5/12 w-full flex flex-col gap-8">
+        <p className="text-center md:text-left text-color-text">
           Iti multumesc ca ai ales sa faci acest pas spre o viata mai
           echilibrata si te invit sa descoperi cum putem lucra impreuna pentru
           a-ti atinge obiectivele!
         </p>
-        <button className="px-16 py-4 self-baseline w-full md:w-auto  bg-color-primary mt-8 rounded-md text-color-background">
+        <Link
+          href="/contact"
+          className="px-16 hover:rounded-2xl transition-all py-4 self-baseline w-full md:w-auto  bg-color-primary mt-8 rounded-md text-color-background"
+        >
           Programează o ședință{" "}
-        </button>
+        </Link>
       </div>
     </div>
   );

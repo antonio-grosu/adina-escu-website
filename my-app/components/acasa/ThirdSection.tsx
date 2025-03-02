@@ -1,3 +1,4 @@
+import Link from "next/link";
 export const ThirdSection = () => {
   return (
     <div className=" md:py-12  pt-12 pb-24   w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50  gap-24">
@@ -26,9 +27,11 @@ export const ThirdSection = () => {
         îți oferă oportunitatea de a-ți îmbunătăți concentrarea, echilibrul
         emoțional și calitatea somnului, într-un mod natural și non-invaziv.
       </p>
-      <button className="px-16 py-4 self-baseline w-full md:w-auto  bg-color-primary mt-8 rounded-md text-color-background">
-        Vezi Serviciile{" "}
-      </button>
+      <Link href="/servicii">
+        <button className="px-16 hover:rounded-2xl transition-all py-4 self-baseline w-full md:w-auto  bg-color-primary mt-8 rounded-md text-color-background">
+          Vezi Serviciile{" "}
+        </button>
+      </Link>
     </div>
   );
 };

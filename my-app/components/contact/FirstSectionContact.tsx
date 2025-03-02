@@ -1,7 +1,7 @@
 export const FirstSectionContact = () => {
   return (
     <div className="md:py-12 pb-12  md:h-auto w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50">
-      <h1 className="text-color-primary text-left font text-2xl md:text-4xl ">
+      <h1 className="text-color-primary mt-12 text-left font text-2xl md:text-4xl ">
         Programare Cabinet{" "}
       </h1>
       <div className="flex flex-col md:flex-row">

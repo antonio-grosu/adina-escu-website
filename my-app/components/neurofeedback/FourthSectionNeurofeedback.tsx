@@ -1,7 +1,7 @@
 import Link from "next/link";
 export const FourthSectionNeurofeedback = () => {
   return (
-    <div className="py-24  md:h-auto w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 flex flex-col  justify-between gap-12">
+    <div className="py-12  md:h-auto w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 flex flex-col  justify-between gap-12">
       <h1 className="text-color-primary text-left font text-2xl md:text-4xl ">
         Ce se întâmplă în timpul unei ședințe de Neurofeedback?{" "}
       </h1>
@@ -16,14 +16,14 @@ export const FourthSectionNeurofeedback = () => {
       <div className="flex flex-col md:flex-row  justify-start items-center   md:gap-12">
         <Link
           href="/contact"
-          className="px-16 py-4 self-baseline w-full md:w-auto text-center  bg-color-primary mt-8 rounded-md text-color-background"
+          className="px-16 hover:rounded-2xl transition-all py-4 self-baseline w-full md:w-auto  bg-color-primary mt-8 rounded-md text-color-background"
         >
           Programează o ședință{" "}
         </Link>
 
         <Link
           href="/servicii"
-          className="px-16 py-4 self-baseline w-full md:w-auto text-center bg-color-primary/20 border-2 border-color-primary text-color-text mt-8 rounded-md "
+          className="px-16 hover:rounded-2xl transition-all py-4 self-baseline w-full md:w-auto  bg-color-primary/20 border-2 border-color-primary text-color-text mt-8 rounded-md "
         >
           Vezi Serviciile{" "}
         </Link>

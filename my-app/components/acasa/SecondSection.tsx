@@ -1,3 +1,4 @@
+import Link from "next/link";
 export const SecondSection = () => {
   return (
     <div className=" md:pt-12 min-h-screen w-full pb-24 px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 flex items-center justify-between gap-24">
@@ -6,9 +7,11 @@ export const SecondSection = () => {
           <h1 className="text-4xl  w-8/12">
             Tehnologia care antrenează mintea pentru performanță și echilibru
           </h1>
-          <button className="px-16 py-4 self-baseline  bg-color-primary mt-8 rounded-md text-color-background">
-            Despre Neurofeedback{" "}
-          </button>
+          <Link href="/neurofeedback">
+            <button className="px-16 hover:rounded-2xl transition-all py-4 self-baseline  bg-color-primary mt-8 rounded-md text-color-background">
+              Despre Neurofeedback{" "}
+            </button>
+          </Link>
         </div>
         <div className="flex flex-row items-center mt-12 justify-between">
           <p className="w-5/12 text-color-text">
@@ -45,9 +48,11 @@ export const SecondSection = () => {
           personalizată și bazată pe știință pentru o minte mai echilibrată și
           eficientă.
         </p>
-        <button className="px-16 py-4  w-full bg-color-primary mt-8 rounded-md text-color-background">
-          Despre Neurofeedback{" "}
-        </button>
+        <Link href="/neurofeedback">
+          <button className="px-16 py-4 hover:rounded-2xl transition-all w-full bg-color-primary mt-8 rounded-md text-color-background">
+            Despre Neurofeedback{" "}
+          </button>
+        </Link>
       </div>
     </div>
   );

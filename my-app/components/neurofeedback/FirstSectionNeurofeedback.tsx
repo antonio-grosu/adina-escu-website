@@ -1,6 +1,6 @@
 export const FirstSectionNeurofeedback = () => {
   return (
-    <div className="pt-36 pb-24  md:pb-24 md:pt-64 md:h-auto w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 flex items-center justify-between gap-24 ">
+    <div className="pt-24 pb-12  md:pb-24 md:pt-64 md:h-auto w-full px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96 bg-gray-50 flex items-center justify-between gap-24 ">
       <div className="md:w-5/12 w-full  ">
         <h1 className="text-color-primary text-center md:text-left font text-2xl md:text-4xl ">
           Ce este neurofeedback?{" "}
