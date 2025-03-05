@@ -32,16 +32,16 @@ const Navbar = () => {
             Despre Mine
           </Link>
           <Link
+            href="/activitatea-mea"
+            className="hover:text-color-primary hover:cursor-pointer"
+          >
+            Activitatea mea{" "}
+          </Link>
+          <Link
             href="/servicii"
             className="hover:text-color-primary hover:cursor-pointer"
           >
             Servicii
-          </Link>
-          <Link
-            href="/neurofeedback"
-            className="hover:text-color-primary hover:cursor-pointer"
-          >
-            Neurofeedback
           </Link>
           <Link
             href="/contact"
@@ -85,8 +85,8 @@ const Navbar = () => {
                   Acasă
                 </Link>
                 <Link href="/despre-mine">Despre Mine</Link>
+                <Link href="/activitatea-mea">Activitatea mea</Link>
                 <Link href="/servicii">Servicii</Link>
-                <Link href="/neurofeedback">Neurofeedback</Link>
               </div>
             </div>
 

@@ -8,19 +8,18 @@ export const FourthSectionDespre = () => {
         </h1>
 
         <p className="mt-8 text-center md:text-left text-color-text">
-          Consider ca fiecare persoana este unica, motiv pentru care abordarea
-          mea se bazeaza pe o combinatie de stiinta si empatie. Imi doresc sa
-          creez un mediu sigur si de incredere, in care sa putem explora
-          impreuna cele mai eficiente tehnici pentru a obtine echilibrul mental
-          si emotional. Neurofeedback-ul este o solutie revolutionara care ne
-          ofera intstrumentele necesare pentru a atinge acest obiectiv.{" "}
+          Fiecare persoană este unică, iar abordarea mea este personalizată,
+          bazată pe empatie, știință și respect față de nevoile fiecărui
+          individ. Scopul meu este să creez un mediu sigur, în care să te simți
+          ascultat și înțeles, pentru a putea lucra împreună spre echilibru și
+          claritate emoțională.
         </p>
       </div>
       <div className="md:w-5/12 w-full flex flex-col gap-8">
         <p className="text-center md:text-left text-color-text">
-          Iti multumesc ca ai ales sa faci acest pas spre o viata mai
-          echilibrata si te invit sa descoperi cum putem lucra impreuna pentru
-          a-ti atinge obiectivele!
+          Îți mulțumesc că ai ales să faci acest pas spre o viață mai
+          echilibrată! Te invit să descoperi cum putem lucra împreună pentru
+          a-ți atinge obiectivele personale și emoționale.
         </p>
         <Link
           href="/contact"

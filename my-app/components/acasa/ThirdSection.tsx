@@ -23,9 +23,9 @@ export const ThirdSection = () => {
       </div>
       <p className="text-color-text mt-12">
         Te-ai întrebat vreodată cum îți poți antrena creierul pentru a funcționa
-        la capacitate maximă? Neurofeedback-ul este o metodă revoluționară care
-        îți oferă oportunitatea de a-ți îmbunătăți concentrarea, echilibrul
-        emoțional și calitatea somnului, într-un mod natural și non-invaziv.
+        la capacitate maximă? Află mai multe despre serviciile mele și
+        programează o ședință de consultanță pentru a începe călătoria către o
+        minte mai echilibrată și sănătoasă.
       </p>
       <Link href="/servicii">
         <button className="px-16 hover:rounded-2xl transition-all py-4 self-baseline w-full md:w-auto  bg-color-primary mt-8 rounded-md text-color-background">

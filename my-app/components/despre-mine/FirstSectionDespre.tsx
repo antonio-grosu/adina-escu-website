@@ -6,7 +6,7 @@ export const FirstSectionDespre = () => {
       </h1>
       <div className="w-full flex flex-col md:flex-row items-center justify-around gap-8">
         <p className="border-2 border-color-primary bg-color-primary/15 p-4 rounded-lg">
-          Am ajutat numerosipacieni sa-si regaseasca linistea inteeioara si
+          Am ajutat numerosi pacieni sa-si regaseasca linistea inteeioara si
           sa-si imbunatateasca performantele cognitive.{" "}
         </p>
         <div className="bg-gray-500 h-56 aspect-square rounded-full border-4 border-color-primary"></div>

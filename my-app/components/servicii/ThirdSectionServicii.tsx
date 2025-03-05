@@ -9,7 +9,7 @@ export const ThirdSectionServicii = () => {
       </p>
       <Link
         href="/contact"
-        className="px-16 hover:rounded-2xl transition-all py-4 self-baseline w-full md:w-auto  bg-color-primary text-color-background rounded-md "
+        className="px-16 hover:rounded-2xl transition-all text-center py-4 self-baseline w-full md:w-auto  bg-color-primary text-color-background rounded-md "
       >
         Programează o ședință{" "}
       </Link>
