@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-const { default: Link } = require("next/link");
+import Link from "next/link";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);

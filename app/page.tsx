@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { FirstSection } from "@/components/acasa/FirstSection";
 import { SecondSection } from "@/components/acasa/SecondSection";
 import { ThirdSection } from "@/components/acasa/ThirdSection";
