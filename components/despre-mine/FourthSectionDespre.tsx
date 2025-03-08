@@ -23,7 +23,7 @@ export const FourthSectionDespre = () => {
         </p>
         <Link
           href="/contact"
-          className="px-16 hover:rounded-2xl transition-all py-4 self-baseline w-full md:w-auto  bg-color-primary mt-8 rounded-md text-color-background"
+          className="px-16 hover:rounded-2xl text-center transition-all py-4 self-baseline w-full md:w-auto  bg-color-primary mt-8 rounded-md text-color-background"
         >
           Programează o ședință{" "}
         </Link>

@@ -91,7 +91,7 @@ const Navbar = () => {
             </div>
 
             <div className="slide-in flex flex-col items-left">
-              <h3 className=" text-white font-semibold">Sedinta</h3>
+              <h3 className=" text-white font-semibold">Contactare</h3>
               <div className="pt-1 w-full bg-white/10 mt-1"></div>
               <div className="flex flex-col gap-4 text-white text-sm">
                 <Link href="/" className="mt-4 py-2">

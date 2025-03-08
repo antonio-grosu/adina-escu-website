@@ -49,9 +49,9 @@ export const SecondSection = () => {
           personalizată și bazată pe știință pentru o minte mai echilibrată și
           eficientă.
         </p>
-        <Link href="/neurofeedback">
+        <Link href="/activitatea-mea">
           <button className="px-16 py-4 hover:rounded-2xl transition-all w-full bg-color-primary mt-8 rounded-md text-color-background">
-            Despre Neurofeedback{" "}
+            Despre activitatea mea{" "}
           </button>
         </Link>
       </div>
